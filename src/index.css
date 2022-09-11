@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.colors {
+  display: flex;
+  margin-left: 10em;
+  gap: 5em;
+}
+.colors .left img {
+  width: 350px;
+}
+.colors .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+.colors .right .option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 224, 224, 0.397);
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.colors .right .option div {
+  height: 20px;
+  width: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.colors .right .option .white {
+  background-color: white;
+}
+.colors .right .option .pinkgold {
+  background-color: pink;
+}
+.colors .right .option .black {
+  background-color: black;
+}
+.colors .right .option .green {
+  background-color: rgb(3, 97, 97);
+}
